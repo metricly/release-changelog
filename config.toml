@@ -1,0 +1,13 @@
+baseURL = "http://changelog.metricly.com/"
+languageCode = "en-us"
+title = "Metricly Changelog"
+theme = "hugo-changelog-theme"
+
+[params]
+#themeStyle = "flex"
+themeStyle = "original"
+#themeVariant = "grey"
+disableHomeIcon = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
